@@ -1,0 +1,220 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* website_sale_downpayment
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0-20260513\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-05-23 06:57+0000\n"
+"PO-Revision-Date: 2026-05-23 06:57+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: website_sale_downpayment
+#: model_terms:ir.ui.view,arch_db:website_sale_downpayment.payment_plan_options_inherit
+msgid ""
+"% Deposit \n"
+"                                            &amp;"
+msgstr ""
+"% 계약금 \n"
+"                                            &amp;"
+
+#. module: website_sale_downpayment
+#: model_terms:ir.ui.view,arch_db:website_sale_downpayment.payment_plan_options_inherit
+msgid "% Service fee."
+msgstr "% 수수료."
+
+#. module: website_sale_downpayment
+#: model_terms:ir.ui.view,arch_db:website_sale_downpayment.product_template_form_view_installment_general
+msgid "<span class=\"oe_grey\">%</span>"
+msgstr "<span class=\"oe_grey\">%</span>"
+
+#. module: website_sale_downpayment
+#: model_terms:ir.ui.view,arch_db:website_sale_downpayment.installment_fee_total_inherit
+msgid "<span>Balance Due</span>"
+msgstr "<span>미납 잔액</span>"
+
+#. module: website_sale_downpayment
+#: model_terms:ir.ui.view,arch_db:website_sale_downpayment.installment_fee_total_inherit
+msgid "<span>Final Payment</span>"
+msgstr "<span>최종 결제 금액</span>"
+
+#. module: website_sale_downpayment
+#: model_terms:ir.ui.view,arch_db:website_sale_downpayment.payment_confirmation_status_split_fix
+msgid ""
+"<span>Unfortunately your order can not be confirmed as the amount of your payment does not match the amount of your cart.\n"
+"                    Please contact the responsible of the shop for more information.</span>"
+msgstr ""
+"<span>죄송합니다. 결제 금액이 장바구니의 총 금액과 일치하지 않아 주문을 확정할 수 없습니다.\n"
+"                    자세한 내용은 매장 담당자에게 문의해 주시기 바랍니다.</span>"
+
+#. module: website_sale_downpayment
+#: model_terms:ir.ui.view,arch_db:website_sale_downpayment.payment_confirmation_status_split_fix
+msgid ""
+"<span>Your deposit has been received successfully. The remaining balance "
+"will be processed according to your payment plan.</span>"
+msgstr "<span>계약금이 성공적으로 수령되었습니다. 미납 잔액은 결제 계획에 따라 청구될 예정입니다.</span>"
+
+#. module: website_sale_downpayment
+#: model_terms:ir.ui.view,arch_db:website_sale_downpayment.installment_fee_total_inherit
+msgid "<strong class=\"text-primary\">Amount to Pay Now</strong>"
+msgstr "<strong class=\"text-primary\">현재 결제할 금액</strong>"
+
+#. module: website_sale_downpayment
+#: model_terms:ir.ui.view,arch_db:website_sale_downpayment.installment_fee_total_inherit
+msgid "<strong class=\"text-success\">Paid</strong>"
+msgstr "<strong class=\"text-success\">결제 완료 금액</strong>"
+
+#. module: website_sale_downpayment
+#: model:ir.model.fields,field_description:website_sale_downpayment.field_product_product__x_is_downpayment_enabled
+#: model:ir.model.fields,field_description:website_sale_downpayment.field_product_template__x_is_downpayment_enabled
+msgid "Allow Downpayment Plan"
+msgstr "분할 결제 허용"
+
+#. module: website_sale_downpayment
+#: model:ir.model.fields,field_description:website_sale_downpayment.field_sale_order__amount_paid
+msgid "Amount Paid"
+msgstr "결제된 금액"
+
+#. module: website_sale_downpayment
+#: model:ir.model.fields,field_description:website_sale_downpayment.field_sale_order__x_amount_to_pay
+msgid "Amount to Pay Now"
+msgstr "현재 결제할 금액"
+
+#. module: website_sale_downpayment
+#: model:ir.model.fields,field_description:website_sale_downpayment.field_payment_transaction__display_name
+#: model:ir.model.fields,field_description:website_sale_downpayment.field_product_template__display_name
+#: model:ir.model.fields,field_description:website_sale_downpayment.field_sale_order__display_name
+msgid "Display Name"
+msgstr "표시 이름"
+
+#. module: website_sale_downpayment
+#: model_terms:ir.ui.view,arch_db:website_sale_downpayment.product_template_form_view_installment_general
+msgid "Downpayment & Surcharge Configuration"
+msgstr "계약금 및 추가 요금 설정"
+
+#. module: website_sale_downpayment
+#: model_terms:ir.ui.view,arch_db:website_sale_downpayment.product_template_form_view_installment_general
+msgid "Downpayment Percent"
+msgstr "계약금 비율"
+
+#. module: website_sale_downpayment
+#: model:ir.model.fields,field_description:website_sale_downpayment.field_product_product__x_downpayment_percent
+#: model:ir.model.fields,field_description:website_sale_downpayment.field_product_template__x_downpayment_percent
+msgid "Downpayment Percentage"
+msgstr "계약금 비율"
+
+#. module: website_sale_downpayment
+#: model_terms:ir.ui.view,arch_db:website_sale_downpayment.product_template_form_view_installment_general
+msgid "Enable Downpayment Plan"
+msgstr "분할 결제 요금제 활성화"
+
+#. module: website_sale_downpayment
+#: model:ir.model.fields.selection,name:website_sale_downpayment.selection__sale_order__x_payment_plan__full
+msgid "Full Prepayment"
+msgstr "전액 선결제"
+
+#. module: website_sale_downpayment
+#: model_terms:ir.ui.view,arch_db:website_sale_downpayment.payment_plan_options_inherit
+msgid "Full advance payment"
+msgstr "전액 선결제"
+
+#. module: website_sale_downpayment
+#: model:ir.model.fields,field_description:website_sale_downpayment.field_payment_transaction__id
+#: model:ir.model.fields,field_description:website_sale_downpayment.field_product_template__id
+#: model:ir.model.fields,field_description:website_sale_downpayment.field_sale_order__id
+msgid "ID"
+msgstr "ID"
+
+#. module: website_sale_downpayment
+#: model_terms:ir.ui.view,arch_db:website_sale_downpayment.payment_plan_options_inherit
+msgid "Initial payment:"
+msgstr "첫 회 결제액:"
+
+#. module: website_sale_downpayment
+#: model_terms:ir.ui.view,arch_db:website_sale_downpayment.payment_plan_options_inherit
+msgid "Installment"
+msgstr "할부 결제"
+
+#. module: website_sale_downpayment
+#: model:ir.model.fields.selection,name:website_sale_downpayment.selection__sale_order__x_payment_plan__split
+msgid "Installment Plan"
+msgstr "할부 결제 계획"
+
+#. module: website_sale_downpayment
+#: model:ir.model.fields,field_description:website_sale_downpayment.field_sale_order__x_installment_fee
+#: model_terms:ir.ui.view,arch_db:website_sale_downpayment.installment_fee_total_inherit
+msgid "Installment Service Fee"
+msgstr "할부 결제 수수료"
+
+#. module: website_sale_downpayment
+#: model:ir.model.fields,field_description:website_sale_downpayment.field_sale_order__x_outstanding_balance
+msgid "Outstanding Balance"
+msgstr "미납 잔액"
+
+#. module: website_sale_downpayment
+#: model:ir.model.fields,field_description:website_sale_downpayment.field_sale_order__x_payment_plan
+msgid "Payment Plan"
+msgstr "결제 계획"
+
+#. module: website_sale_downpayment
+#. odoo-python
+#: code:addons/website_sale_downpayment/models/sale_order.py:0
+msgid ""
+"Payment Plan: Installment\n"
+"• Down Payment: %s (%s%%)\n"
+"• Service Fee: %s\n"
+"• Total Balance to be paid later: %s"
+msgstr ""
+"결제 계획: 할부 결제\n"
+"• 계약금: %s (%s%%)\n"
+"• 할부 수수료: %s\n"
+"• 후불 총액: %s"
+
+#. module: website_sale_downpayment
+#: model:ir.model,name:website_sale_downpayment.model_payment_transaction
+msgid "Payment Transaction"
+msgstr "결제 트랜잭션"
+
+#. module: website_sale_downpayment
+#: model_terms:ir.ui.view,arch_db:website_sale_downpayment.payment_plan_options_inherit
+msgid "Payment plans"
+msgstr "결제 계획"
+
+#. module: website_sale_downpayment
+#: model_terms:ir.ui.view,arch_db:website_sale_downpayment.payment_plan_options_inherit
+msgid "Prepayment"
+msgstr "전액 선결제"
+
+#. module: website_sale_downpayment
+#: model:ir.model,name:website_sale_downpayment.model_product_template
+msgid "Product"
+msgstr "제품"
+
+#. module: website_sale_downpayment
+#: model:ir.model,name:website_sale_downpayment.model_sale_order
+msgid "Sales Order"
+msgstr "판매 주문"
+
+#. module: website_sale_downpayment
+#: model_terms:ir.ui.view,arch_db:website_sale_downpayment.product_template_form_view_installment_general
+msgid "Surcharge (Fee) Percent"
+msgstr "추가 요금(수수료) 비율"
+
+#. module: website_sale_downpayment
+#: model:ir.model.fields,field_description:website_sale_downpayment.field_product_product__x_surcharge_percent
+#: model:ir.model.fields,field_description:website_sale_downpayment.field_product_template__x_surcharge_percent
+msgid "Surcharge Percentage"
+msgstr "추가 요금 비율"
+
+#. module: website_sale_downpayment
+#. odoo-python
+#: code:addons/website_sale_downpayment/models/sale_order.py:0
+msgid ""
+"ℹ️ Delivery costs will be updated and invoiced separately before shipping"
+msgstr "ℹ️ 배송비는 배송 전 업데이트되어 별도로 청구됩니다"
